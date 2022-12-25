@@ -6,7 +6,7 @@ The raw test data after either uniaxial tensile or uniaxial compression tests mu
 
 This desktop application takes raw test data and normalizes it by using the actual fiber volume fraction measured from the cross-section image of the sample, taken by optical microscope or SEM. After uploading the raw data, a database file is generated in SQL format and all data is transferred here. Later on, the data is fetched from this database when needed for the calculations. After uploading the cross-section image. the fiber content is found by Binary and Triangle threshold algorithms in OpenCV. According to given normalizing volume fraction by the user, the tensile strength and the elastic modulus is calculated according to ASTM D3039 test standard. These values are shown in a separate window together with actual volume fraction of the sample.  
 
-By doing so, I aimed to practice PyQT5 for GUI creation, OpenCV for image analysis, SQLlite for database management together with object-oriented programming (OOP) after taking a course on Python 3 years ago. In terms of engineering and practical aspect, if the samples are inspected by microsstructure for some reason for an appllication, the normalized values and the volume fraction (critical design variables for a structural part) can be easily calculated by this kind of app without performing chemical method to find the volume fraction of the sample, which causes several days and material cost in general.
+By doing so, I aimed to practice PyQT5 for GUI creation, OpenCV for image analysis, SQlite for database management together with object-oriented programming (OOP) after taking a course on Python 3 years ago. In terms of engineering and practical aspect, if the samples are inspected by microsstructure for some reason for an appllication, the normalized values and the volume fraction (critical design variables for a structural part) can be easily calculated by this kind of app without performing chemical method to find the volume fraction of the sample, which causes several days and material cost in general.
 
 # How to Use
 After installing the dependencies in `requirements.txt` (which only consists of PyQt5, numpy and matplotlib), run `main.py` file. A window shown below will appear. 
@@ -20,7 +20,7 @@ After installing the dependencies in `requirements.txt` (which only consists of 
 <p float="center">
   <img src="/1.png" width="340" />
   <img src="/2.png" width="340" /> 
-  <img src="/3.png" width="290" />
+  <img src="/3.png" width="340" />
 </p>
 
 # TODO
