@@ -9,7 +9,7 @@ This desktop application takes raw test data and normalizes it by using the actu
 By doing so, I aimed to practice PyQT5 for GUI creation, OpenCV for image analysis, SQLlite for database management together with object-oriented programming (OOP) after taking a course on Python 3 years ago. In terms of engineering and practical aspect, if the samples are inspected by microsstructure for some reason for an appllication, the normalized values and the volume fraction (critical design variables for a structural part) can be easily calculated by this kind of app without performing chemical method to find the volume fraction of the sample, which causes several days and material cost in general.
 
 # How to Use
-After installing the dependencies in r`equirements.txt` (which only consists of PyQt5, numpy and matplotlib), run `main.py` file. A window shown below will appear. 
+After installing the dependencies in `requirements.txt` (which only consists of PyQt5, numpy and matplotlib), run `main.py` file. A window shown below will appear. 
 
 1. Upload the test data (the file should be in csv format and the headers of the columns should be "Strain" and "Stress".)
 2. Upload the cross section image of the sample
@@ -18,9 +18,9 @@ After installing the dependencies in r`equirements.txt` (which only consists of 
 
 
 <p float="left">
-  <img src="/1.png" width="100" />
-  <img src="/2.png" width="100" /> 
-  <img src="/3.png" width="100" />
+  <img src="/1.png" width="300" />
+  <img src="/2.png" width="300" /> 
+  <img src="/3.png" width="300" />
 </p>
 
 # TODO
