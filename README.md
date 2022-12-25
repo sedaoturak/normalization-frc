@@ -18,9 +18,9 @@ After installing the dependencies in `requirements.txt` (which only consists of 
 
 
 <p float="center">
-  <img src="/1.png" width="400" />
-  <img src="/2.png" width="400" /> 
-  <img src="/3.png" width="400" />
+  <img src="/1.png" width="340" />
+  <img src="/2.png" width="340" /> 
+  <img src="/3.png" width="290" />
 </p>
 
 # TODO
