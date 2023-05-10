@@ -10,6 +10,11 @@ In terms of engineering and practical aspect, this kind of application may enabl
 
 I had started this project 3 years ago when I took a course on Python. In this project, I aimed to practice PyQT5 for GUI creation, OpenCV for image analysis, SQlite for database management together with object-oriented programming (OOP).
 
+The steps showing how the application works are shown in the workflow below.
+<p align="center">
+  <img width="400" src="/workflow.png"/>
+</p>
+
 # How to Use
 After installing the dependencies in `requirements.txt` (which only consists of PyQt5, numpy and matplotlib), run `main.py` file. A window shown below will appear. 
 
